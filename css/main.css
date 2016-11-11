@@ -1,0 +1,51 @@
+body {
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	background-color: #008b8b; /**dark cyan**/
+}
+
+h1 {
+	color: #Ffffff; /** white **/
+}
+
+h1:hover {
+	transition: 2s;
+	color: #008b8b;
+}
+
+input{
+	border: 3px solid #ffd700; /*gold*/
+	border-radius: 2%;
+	padding: 1% 5%;
+	font-size: 20px;
+}
+
+input:hover {
+	transition: 0.5s;
+	background-color: #555555;
+	color: #ffffff;
+}
+
+div {
+	padding: 7px;
+	
+}
+
+button {
+	background-color: #ffffff;
+	color: #000000;
+	border: 2px solid #ffd700; /** gold **/
+	border-radius: 10%;
+	padding: 3px 20px;
+}
+
+button:hover{
+	transition: 0.5s;
+	background-color: #808080;
+	color: #ffffff;
+}
+
+li {
+	list-style-type: none;
+	display: block;
+}
